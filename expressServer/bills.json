@@ -1,0 +1,844 @@
+{
+  "actions": [
+    {
+      "date": "2017-04-24 06:00:00",
+      "action": "Governor Signed",
+      "type": [
+        "governor:signed"
+      ],
+      "related_entities": [
+        
+      ],
+      "actor": "executive"
+    },
+    {
+      "date": "2017-04-13 06:00:00",
+      "action": "Sent to the Governor",
+      "type": [
+        "governor:received"
+      ],
+      "related_entities": [
+        
+      ],
+      "actor": "executive"
+    },
+    {
+      "date": "2017-04-12 06:00:00",
+      "action": "Signed by the President of the Senate",
+      "type": [
+        "other"
+      ],
+      "related_entities": [
+        
+      ],
+      "actor": "upper"
+    },
+    {
+      "date": "2017-04-11 06:00:00",
+      "action": "Signed by the Speaker of the House",
+      "type": [
+        "other"
+      ],
+      "related_entities": [
+        
+      ],
+      "actor": "lower"
+    },
+    {
+      "date": "2017-03-31 06:00:00",
+      "action": "Senate Third Reading Passed - No Amendments",
+      "type": [
+        "bill:reading:3",
+        "bill:passed"
+      ],
+      "related_entities": [
+        
+      ],
+      "actor": "upper"
+    },
+    {
+      "date": "2017-03-30 06:00:00",
+      "action": "Senate Third Reading Laid Over Daily - No Amendments",
+      "type": [
+        "other"
+      ],
+      "related_entities": [
+        
+      ],
+      "actor": "upper"
+    },
+    {
+      "date": "2017-03-29 06:00:00",
+      "action": "Senate Second Reading Passed - No Amendments",
+      "type": [
+        "bill:reading:2"
+      ],
+      "related_entities": [
+        
+      ],
+      "actor": "upper"
+    },
+    {
+      "action": "Senate Committee on Education Refer Unamended - Consent Calendar to Senate Committee of the Whole",
+      "date": "2017-03-23 06:00:00",
+      "type": [
+        "committee:passed"
+      ],
+      "related_entities": [
+        {
+          "type": "committee",
+          "name": "Education",
+          "id": "COC000138"
+        }
+      ],
+      "actor": "upper"
+    },
+    {
+      "date": "2017-03-10 07:00:00",
+      "action": "Introduced In Senate - Assigned to Education",
+      "type": [
+        "bill:introduced"
+      ],
+      "related_entities": [
+        {
+          "type": "committee",
+          "name": "Education",
+          "id": "COC000138"
+        }
+      ],
+      "actor": "upper"
+    },
+    {
+      "date": "2017-03-09 07:00:00",
+      "action": "House Third Reading Passed - No Amendments",
+      "type": [
+        "bill:reading:3",
+        "bill:passed"
+      ],
+      "related_entities": [
+        
+      ],
+      "actor": "lower"
+    },
+    {
+      "date": "2017-03-08 07:00:00",
+      "action": "House Third Reading Laid Over Daily - No Amendments",
+      "type": [
+        "other"
+      ],
+      "related_entities": [
+        
+      ],
+      "actor": "lower"
+    },
+    {
+      "date": "2017-03-07 07:00:00",
+      "action": "House Second Reading Passed with Amendments - Committee",
+      "type": [
+        "bill:reading:2"
+      ],
+      "related_entities": [
+        
+      ],
+      "actor": "lower"
+    },
+    {
+      "date": "2017-03-03 07:00:00",
+      "action": "House Committee on Appropriations Refer Amended to House Committee of the Whole",
+      "type": [
+        "committee:referred",
+        "committee:passed"
+      ],
+      "related_entities": [
+        {
+          "type": "committee",
+          "name": "House Committee of the Whole",
+          "id": null
+        },
+        {
+          "type": "committee",
+          "name": "Appropriations",
+          "id": "COC000137"
+        }
+      ],
+      "actor": "lower"
+    },
+    {
+      "date": "2017-02-27 07:00:00",
+      "action": "House Committee on Education Refer Amended to Appropriations",
+      "type": [
+        "committee:referred"
+      ],
+      "related_entities": [
+        {
+          "type": "committee",
+          "name": "Appropriations",
+          "id": "COC000137"
+        },
+        {
+          "type": "committee",
+          "name": "Education",
+          "id": "COC000127"
+        }
+      ],
+      "actor": "lower"
+    },
+    {
+      "date": "2017-02-13 07:00:00",
+      "action": "Introduced In House - Assigned to Education",
+      "type": [
+        "bill:introduced"
+      ],
+      "related_entities": [
+        {
+          "type": "committee",
+          "name": "Education",
+          "id": "COC000127"
+        }
+      ],
+      "actor": "lower"
+    }
+  ],
+  "sources": [
+    {
+      "url": "http://leg.colorado.gov/bills/hb17-1184"
+    }
+  ],
+  "session": "2017A",
+  "id": "COB00004781",
+  "votes": [
+    {
+      "sources": [
+        {
+          "url": "http://leg.colorado.gov/content/sed2017a2017-03-23t133235z-hb17-1184-0-activity-vote-summary"
+        }
+      ],
+      "session": "2017A",
+      "id": "COV00021276",
+      "other_count": 0,
+      "state": "co",
+      "+action": null,
+      "type": "other",
+      "no_count": 0,
+      "passed": true,
+      "yes_votes": [
+        {
+          "leg_id": "COL000244",
+          "name": "Gardner"
+        },
+        {
+          "leg_id": "COL000192",
+          "name": "Merrifield"
+        },
+        {
+          "leg_id": null,
+          "name": "Neville T."
+        },
+        {
+          "leg_id": "COL000062",
+          "name": "Todd"
+        },
+        {
+          "leg_id": "COL000229",
+          "name": "Zenzinger"
+        },
+        {
+          "leg_id": "COL000230",
+          "name": "Priola"
+        },
+        {
+          "leg_id": "COL000107",
+          "name": "Hill"
+        }
+      ],
+      "date": "2017-03-23 06:00:00",
+      "no_votes": [
+        
+      ],
+      "vote_id": "COV00021276",
+      "other_votes": [
+        
+      ],
+      "yes_count": 7,
+      "bill_chamber": "lower",
+      "motion": "Refer House Bill 17-1184 to the Committee of the Whole with a recommendation that it be placed on the consent calendar. The motion passed on a vote of 7-0.",
+      "chamber": "upper",
+      "bill_id": "COB00004781"
+    },
+    {
+      "sources": [
+        {
+          "url": "http://leg.colorado.gov/content/hed2017a2017-02-27t133017z-hb17-1184-1-activity-vote-summary"
+        }
+      ],
+      "session": "2017A",
+      "id": "COV00021278",
+      "other_count": 0,
+      "state": "co",
+      "+action": null,
+      "type": "other",
+      "no_count": 0,
+      "passed": true,
+      "yes_votes": [
+        {
+          "leg_id": null,
+          "name": "Bridges"
+        },
+        {
+          "leg_id": null,
+          "name": "Everett"
+        },
+        {
+          "leg_id": null,
+          "name": "Exum"
+        },
+        {
+          "leg_id": null,
+          "name": "Garnett"
+        },
+        {
+          "leg_id": null,
+          "name": "Lee"
+        },
+        {
+          "leg_id": null,
+          "name": "Leonard"
+        },
+        {
+          "leg_id": null,
+          "name": "Lundeen"
+        },
+        {
+          "leg_id": null,
+          "name": "McLachlan"
+        },
+        {
+          "leg_id": null,
+          "name": "Navarro"
+        },
+        {
+          "leg_id": null,
+          "name": "Sias"
+        },
+        {
+          "leg_id": null,
+          "name": "Wilson"
+        },
+        {
+          "leg_id": null,
+          "name": "Buckner"
+        },
+        {
+          "leg_id": null,
+          "name": "Pettersen"
+        }
+      ],
+      "date": "2017-03-23 06:00:00",
+      "no_votes": [
+        
+      ],
+      "vote_id": "COV00021278",
+      "other_votes": [
+        
+      ],
+      "yes_count": 0,
+      "bill_chamber": "lower",
+      "motion": "Adopt amendment L.002 (Attachment C). The motion passed without objection.",
+      "chamber": "upper",
+      "bill_id": "COB00004781"
+    },
+    {
+      "sources": [
+        {
+          "url": "http://leg.colorado.gov/content/hed2017a2017-02-27t133017z-hb17-1184-2-activity-vote-summary"
+        }
+      ],
+      "session": "2017A",
+      "id": "COV00021277",
+      "other_count": 0,
+      "state": "co",
+      "+action": null,
+      "type": "other",
+      "no_count": 2,
+      "passed": true,
+      "yes_votes": [
+        {
+          "leg_id": null,
+          "name": "Bridges"
+        },
+        {
+          "leg_id": null,
+          "name": "Exum"
+        },
+        {
+          "leg_id": null,
+          "name": "Garnett"
+        },
+        {
+          "leg_id": null,
+          "name": "Lee"
+        },
+        {
+          "leg_id": null,
+          "name": "Lundeen"
+        },
+        {
+          "leg_id": null,
+          "name": "McLachlan"
+        },
+        {
+          "leg_id": null,
+          "name": "Navarro"
+        },
+        {
+          "leg_id": null,
+          "name": "Sias"
+        },
+        {
+          "leg_id": null,
+          "name": "Wilson"
+        },
+        {
+          "leg_id": null,
+          "name": "Buckner"
+        },
+        {
+          "leg_id": null,
+          "name": "Pettersen"
+        }
+      ],
+      "date": "2017-03-23 06:00:00",
+      "no_votes": [
+        {
+          "leg_id": null,
+          "name": "Everett"
+        },
+        {
+          "leg_id": null,
+          "name": "Leonard"
+        }
+      ],
+      "vote_id": "COV00021277",
+      "other_votes": [
+        
+      ],
+      "yes_count": 11,
+      "bill_chamber": "lower",
+      "motion": "Refer House Bill 17-1184, as amended, to the Committee on Appropriations. The motion passed on a vote of 11-2.",
+      "chamber": "upper",
+      "bill_id": "COB00004781"
+    },
+    {
+      "sources": [
+        {
+          "url": "http://leg.colorado.gov/content/happ2017a2017-03-03t075755z-hb17-1184-1-activity-vote-summary"
+        }
+      ],
+      "session": "2017A",
+      "id": "COV00021275",
+      "other_count": 0,
+      "state": "co",
+      "+action": null,
+      "type": "other",
+      "no_count": 2,
+      "passed": true,
+      "yes_votes": [
+        {
+          "leg_id": null,
+          "name": "Beckman"
+        },
+        {
+          "leg_id": null,
+          "name": "Danielson"
+        },
+        {
+          "leg_id": null,
+          "name": "Garnett"
+        },
+        {
+          "leg_id": null,
+          "name": "Hansen"
+        },
+        {
+          "leg_id": null,
+          "name": "Kraft-Tharp"
+        },
+        {
+          "leg_id": null,
+          "name": "Pabon"
+        },
+        {
+          "leg_id": null,
+          "name": "Rankin"
+        },
+        {
+          "leg_id": null,
+          "name": "Wilson"
+        },
+        {
+          "leg_id": null,
+          "name": "Winter"
+        },
+        {
+          "leg_id": null,
+          "name": "Hamner"
+        },
+        {
+          "leg_id": null,
+          "name": "Young"
+        }
+      ],
+      "date": "2017-03-23 06:00:00",
+      "no_votes": [
+        {
+          "leg_id": null,
+          "name": "Everett"
+        },
+        {
+          "leg_id": null,
+          "name": "Neville P."
+        }
+      ],
+      "vote_id": "COV00021275",
+      "other_votes": [
+        
+      ],
+      "yes_count": 11,
+      "bill_chamber": "lower",
+      "motion": "Refer House Bill 17-1184, as amended, to the Committee of the Whole.  The motion passed on a vote of 11-2.",
+      "chamber": "upper",
+      "bill_id": "COB00004781"
+    },
+    {
+      "sources": [
+        {
+          "url": "http://leg.colorado.gov/content/hed2017a2017-02-27t133017z-hb17-1184-0-activity-vote-summary"
+        }
+      ],
+      "session": "2017A",
+      "id": "COV00021279",
+      "other_count": 0,
+      "state": "co",
+      "+action": null,
+      "type": "other",
+      "no_count": 0,
+      "passed": true,
+      "yes_votes": [
+        {
+          "leg_id": null,
+          "name": "Bridges"
+        },
+        {
+          "leg_id": null,
+          "name": "Everett"
+        },
+        {
+          "leg_id": null,
+          "name": "Exum"
+        },
+        {
+          "leg_id": null,
+          "name": "Garnett"
+        },
+        {
+          "leg_id": null,
+          "name": "Lee"
+        },
+        {
+          "leg_id": null,
+          "name": "Leonard"
+        },
+        {
+          "leg_id": null,
+          "name": "Lundeen"
+        },
+        {
+          "leg_id": null,
+          "name": "McLachlan"
+        },
+        {
+          "leg_id": null,
+          "name": "Navarro"
+        },
+        {
+          "leg_id": null,
+          "name": "Sias"
+        },
+        {
+          "leg_id": null,
+          "name": "Wilson"
+        },
+        {
+          "leg_id": null,
+          "name": "Buckner"
+        },
+        {
+          "leg_id": null,
+          "name": "Pettersen"
+        }
+      ],
+      "date": "2017-03-23 06:00:00",
+      "no_votes": [
+        
+      ],
+      "vote_id": "COV00021279",
+      "other_votes": [
+        
+      ],
+      "yes_count": 0,
+      "bill_chamber": "lower",
+      "motion": "Adopt amendment L.003 (Attachment B). The motion passed without objection.",
+      "chamber": "upper",
+      "bill_id": "COB00004781"
+    },
+    {
+      "sources": [
+        {
+          "url": "http://leg.colorado.gov/content/happ2017a2017-03-03t075755z-hb17-1184-0-activity-vote-summary"
+        }
+      ],
+      "session": "2017A",
+      "id": "COV00021280",
+      "other_count": 0,
+      "state": "co",
+      "+action": null,
+      "type": "other",
+      "no_count": 0,
+      "passed": true,
+      "yes_votes": [
+        {
+          "leg_id": null,
+          "name": "Beckman"
+        },
+        {
+          "leg_id": null,
+          "name": "Danielson"
+        },
+        {
+          "leg_id": null,
+          "name": "Everett"
+        },
+        {
+          "leg_id": null,
+          "name": "Garnett"
+        },
+        {
+          "leg_id": null,
+          "name": "Hansen"
+        },
+        {
+          "leg_id": null,
+          "name": "Kraft-Tharp"
+        },
+        {
+          "leg_id": null,
+          "name": "Neville P."
+        },
+        {
+          "leg_id": null,
+          "name": "Pabon"
+        },
+        {
+          "leg_id": null,
+          "name": "Rankin"
+        },
+        {
+          "leg_id": null,
+          "name": "Wilson"
+        },
+        {
+          "leg_id": null,
+          "name": "Winter"
+        },
+        {
+          "leg_id": null,
+          "name": "Hamner"
+        },
+        {
+          "leg_id": null,
+          "name": "Young"
+        }
+      ],
+      "date": "2017-03-23 06:00:00",
+      "no_votes": [
+        
+      ],
+      "vote_id": "COV00021280",
+      "other_votes": [
+        
+      ],
+      "yes_count": 0,
+      "bill_chamber": "lower",
+      "motion": "Adopt amendment L.004 The motion passed without objection.",
+      "chamber": "upper",
+      "bill_id": "COB00004781"
+    }
+  ],
+  "documents": [
+    {
+      "url": "http://leg.colorado.gov/sites/default/files/documents/2017A/bills/fn/2017a_hb1184_f1.pdf",
+      "mimetype": "application/pdf",
+      "+date": null,
+      "doc_id": "COD00042443",
+      "name": "Fiscal Note FN4 (07/13/2017)"
+    },
+    {
+      "url": "http://leg.colorado.gov/sites/default/files/documents/2017A/bills/fn/2017a_hb1184_r2.pdf",
+      "mimetype": "application/pdf",
+      "+date": null,
+      "doc_id": "COD00042444",
+      "name": "Fiscal Note FN3 (03/16/2017)"
+    },
+    {
+      "url": "http://leg.colorado.gov/sites/default/files/documents/2017A/bills/fn/2017a_hb1184_r1.pdf",
+      "mimetype": "application/pdf",
+      "+date": null,
+      "doc_id": "COD00042445",
+      "name": "Fiscal Note FN2 (03/02/2017)"
+    },
+    {
+      "url": "http://leg.colorado.gov/sites/default/files/documents/2017A/bills/fn/2017a_hb1184_00.pdf",
+      "mimetype": "application/pdf",
+      "+date": null,
+      "doc_id": "COD00042446",
+      "name": "Fiscal Note FN1 (02/23/2017)"
+    },
+    {
+      "url": "http://leg.colorado.gov/sites/default/files/documents/2017A/bills/fn/2017a_hb1184_hse.pdf",
+      "mimetype": "application/pdf",
+      "+date": null,
+      "doc_id": "COD00042447",
+      "name": "Fiscal Note SA1 (03/03/2017)"
+    }
+  ],
+  "title": "Modern Technology Education In Public Schools",
+  "alternate_titles": [
+    
+  ],
+  "companions": [
+    
+  ],
+  "all_ids": [
+    "COB00004781"
+  ],
+  "state": "co",
+  "subjects": [
+    
+  ],
+  "type": [
+    "bill"
+  ],
+  "sponsors": [
+    {
+      "leg_id": "COL000067",
+      "type": "primary",
+      "name": "Crisanta Duran"
+    },
+    {
+      "leg_id": "COL000241",
+      "type": "primary",
+      "name": "Kevin Grantham"
+    }
+  ],
+  "updated_at": "2017-10-03 08:37:49",
+  "action_dates": {
+    "passed_upper": "2017-03-31 06:00:00",
+    "passed_lower": "2017-03-09 07:00:00",
+    "last": "2017-04-24 06:00:00",
+    "signed": "2017-04-24 06:00:00",
+    "first": "2017-02-13 07:00:00"
+  },
+  "created_at": "2017-02-27 07:37:16",
+  "versions": [
+    {
+      "mimetype": "application/pdf",
+      "url": "http://leg.colorado.gov/sites/default/files/documents/2017A/bills/2017a_1184_signed.pdf",
+      "+date": null,
+      "doc_id": "COD00042434",
+      "name": "Signed Act (04/24/2017)"
+    },
+    {
+      "mimetype": "application/pdf",
+      "url": "http://leg.colorado.gov/sites/default/files/documents/2017A/bills/2017a_1184_enr.pdf",
+      "+date": null,
+      "doc_id": "COD00042435",
+      "name": "Final Act (04/12/2017)"
+    },
+    {
+      "mimetype": "application/pdf",
+      "url": "http://leg.colorado.gov/sites/default/files/documents/2017A/bills/2017a_1184_rer.pdf",
+      "+date": null,
+      "doc_id": "COD00042436",
+      "name": "Rerevised (03/31/2017)"
+    },
+    {
+      "mimetype": "application/pdf",
+      "url": "http://leg.colorado.gov/sites/default/files/documents/2017A/bills/2017a_1184_rev.pdf",
+      "+date": null,
+      "doc_id": "COD00042437",
+      "name": "Revised (03/29/2017)"
+    },
+    {
+      "mimetype": "application/pdf",
+      "url": "http://leg.colorado.gov/sites/default/files/documents/2017A/bills/2017a_1184_ren.pdf",
+      "+date": null,
+      "doc_id": "COD00042438",
+      "name": "Reengrossed (03/09/2017)"
+    },
+    {
+      "mimetype": "application/pdf",
+      "url": "http://leg.colorado.gov/sites/default/files/documents/2017A/bills/2017a_1184_eng.pdf",
+      "+date": null,
+      "doc_id": "COD00042439",
+      "name": "Engrossed (03/07/2017)"
+    },
+    {
+      "mimetype": "application/pdf",
+      "url": "http://leg.colorado.gov/sites/default/files/documents/2017A/bills/2017a_1184_01.pdf",
+      "+date": null,
+      "doc_id": "COD00042440",
+      "name": "Introduced (02/13/2017)"
+    },
+    {
+      "mimetype": "application/pdf",
+      "url": "http://leg.colorado.gov/sites/default/files/documents/2017A/bills/2017a_1184app.pdf",
+      "+date": null,
+      "doc_id": "COD00042441",
+      "name": "PA2 (03/03/2017)"
+    },
+    {
+      "mimetype": "application/pdf",
+      "url": "http://leg.colorado.gov/sites/default/files/documents/2017A/bills/2017a_1184ed_01.pdf",
+      "+date": null,
+      "doc_id": "COD00042442",
+      "name": "PA1 (02/28/2017)"
+    },
+    {
+      "mimetype": "application/pdf",
+      "url": "http://leg.colorado.gov/sites/default/files/documents/2017a/bills/cr/2017a_hb1184_s_ed_001.pdf",
+      "+date": null,
+      "doc_id": "COD00046315",
+      "name": "Committee Amendment"
+    },
+    {
+      "mimetype": "application/pdf",
+      "url": "http://coga.prod.acquia-sites.com/sites/default/files/html-attachments/h_ed_2017a_20170227t133017z0__hearing_summary/17HouseEd0227AttachB.pdf",
+      "+date": null,
+      "doc_id": "COD00033698",
+      "name": "Amendment L.003"
+    },
+    {
+      "mimetype": "application/pdf",
+      "url": "http://coga.prod.acquia-sites.com/sites/default/files/html-attachments/h_ed_2017a_20170227t133017z0__hearing_summary/17HouseEd0227AttachC.pdf",
+      "+date": null,
+      "doc_id": "COD00033699",
+      "name": "Amendment L.002"
+    }
+  ],
+  "summary": "Under current law, the state board of education (state board) must, by July 1, 2018, review and revise, as necessary, the state academic standards. The bill directs the state board, in the course of revising the academic standards, to incorporate into the standards for each subject skills relating to the use of information and communications technologies to find, evaluate, create, and communicate information.\nThe bill directs the department of education (department) to create a publicly available resource bank of materials pertaining to computer science programs, including sample standards, samples of curricula, and materials for professional educator development. The department must work with experts in creating and compiling the information. The resource bank is to be available by July 1, 2018. Each school district, charter school, and board of cooperative services may choose whether to provide computer science courses and whether to use the materials in the resource bank.\n(Note: This summary applies to the reengrossed version of this bill as introduced in the second house.)",
+  "chamber": "lower",
+  "alternate_bill_ids": [
+    
+  ],
+  "bill_id": "HB 17-1184"
+}
